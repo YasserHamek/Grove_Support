@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="gu" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grove સપોર્ટ</title>
+  <meta name="description" content="Grove, એક આરામદાયક વૃક્ષ જીગ્સૉ પઝલ ગેમ માટે સપોર્ટ, વારંવાર પૂછાતા પ્રશ્નો અને સંપર્ક વિગતો.">
+  <link rel="canonical" href="https://yasserhamek.github.io/Grove_Support/support_gu.html">
+  <style>
+:root {
+      color-scheme: light dark;
+      --bg: #f8f7f1;
+      --fg: #182018;
+      --muted: #526052;
+      --accent: #2f6f4e;
+      --panel: #ffffff;
+      --border: #dfe5da;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111611;
+        --fg: #edf2ea;
+        --muted: #b8c5b4;
+        --accent: #8fd6a9;
+        --panel: #182018;
+        --border: #334131;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    article {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: clamp(24px, 5vw, 40px);
+      box-shadow: 0 18px 40px rgb(0 0 0 / 0.06);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 7vw, 3rem);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+    }
+
+    p,
+    ul,
+    details {
+      margin: 1rem 0 0;
+    }
+
+    ul {
+      padding-left: 1.35rem;
+    }
+
+    html[dir="rtl"] ul {
+      padding-left: 0;
+      padding-right: 1.35rem;
+    }
+
+    details {
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+    }
+
+    details:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    summary {
+      color: var(--fg);
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .updated,
+    .muted {
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .language-selector {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    html[dir="rtl"] .language-selector {
+      justify-content: flex-start;
+    }
+
+    .language-selector select {
+      max-width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--fg);
+      font: inherit;
+      font-weight: 600;
+      padding: 0.45rem 0.65rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <div class="language-selector">
+        <label for="language-select">ભાષા બદલો</label>
+        <select id="language-select" onchange="window.location.href = this.value">
+          <option value="support.html" lang="en">English</option>
+          <option value="support_ar.html" lang="ar" dir="rtl">العربية</option>
+          <option value="support_bn.html" lang="bn">বাংলা</option>
+          <option value="support_ca.html" lang="ca">Català</option>
+          <option value="support_cs.html" lang="cs">Čeština</option>
+          <option value="support_da.html" lang="da">Dansk</option>
+          <option value="support_de.html" lang="de">Deutsch</option>
+          <option value="support_el.html" lang="el">Ελληνικά</option>
+          <option value="support_es.html" lang="es">Español</option>
+          <option value="support_fi.html" lang="fi">Suomi</option>
+          <option value="support_fr.html" lang="fr">Français</option>
+          <option value="support_gu.html" lang="gu" selected>ગુજરાતી</option>
+          <option value="support_hi.html" lang="hi">हिन्दी</option>
+          <option value="support_hr.html" lang="hr">Hrvatski</option>
+          <option value="support_hu.html" lang="hu">Magyar</option>
+          <option value="support_id.html" lang="id">Indonesia</option>
+          <option value="support_it.html" lang="it">Italiano</option>
+          <option value="support_ja.html" lang="ja">日本語</option>
+          <option value="support_kn.html" lang="kn">ಕನ್ನಡ</option>
+          <option value="support_ko.html" lang="ko">한국어</option>
+          <option value="support_ml.html" lang="ml">മലയാളം</option>
+          <option value="support_mr.html" lang="mr">मराठी</option>
+          <option value="support_ms.html" lang="ms">Melayu</option>
+          <option value="support_nl.html" lang="nl">Nederlands</option>
+          <option value="support_no.html" lang="no">Norsk</option>
+          <option value="support_or.html" lang="or">ଓଡ଼ିଆ</option>
+          <option value="support_pa.html" lang="pa">ਪੰਜਾਬੀ</option>
+          <option value="support_pl.html" lang="pl">Polski</option>
+          <option value="support_pt.html" lang="pt">Português</option>
+          <option value="support_ro.html" lang="ro">Română</option>
+          <option value="support_ru.html" lang="ru">Русский</option>
+          <option value="support_sk.html" lang="sk">Slovenčina</option>
+          <option value="support_sl.html" lang="sl">Slovenščina</option>
+          <option value="support_sv.html" lang="sv">Svenska</option>
+          <option value="support_ta.html" lang="ta">தமிழ்</option>
+          <option value="support_te.html" lang="te">తెలుగు</option>
+          <option value="support_th.html" lang="th">ไทย</option>
+          <option value="support_tr.html" lang="tr">Türkçe</option>
+          <option value="support_uk.html" lang="uk">Українська</option>
+          <option value="support_ur.html" lang="ur" dir="rtl">اردو</option>
+          <option value="support_vi.html" lang="vi">Tiếng Việt</option>
+          <option value="support_zh.html" lang="zh-Hans">简体中文</option>
+          <option value="support_zh_Hant.html" lang="zh-Hant">繁體中文</option>
+        </select>
+      </div>
+      <h1>Grove સપોર્ટ</h1>
+      <p>Grove એ iPhone માટે આરામદાયક વૃક્ષ જીગ્સૉ પઝલ ગેમ છે. આ પૃષ્ઠ સામાન્ય સમર્થન પ્રશ્નો અને સહાય કેવી રીતે મેળવવી તે આવરી લે છે.</p>
+      <h2>વારંવાર પૂછાતા પ્રશ્નો</h2>
+      <details>
+        <summary>શું Grove ને ઇન્ટરનેટ કનેક્શનની જરૂર છે?</summary>
+        <p>Grove ને ઑફલાઇન-પ્રથમ પઝલ ગેમ તરીકે ડિઝાઇન કરવામાં આવી છે. કોર પઝલ પ્લે, સ્થાનિક પ્રગતિ, સેટિંગ્સ અને અનલૉક કરેલા ટ્રી કાર્ડ્સ તમારા ઉપકરણ પર સંગ્રહિત છે. App Store ખરીદીઓ, પુનઃસ્થાપિત ખરીદીઓ, Game Center અને સમીક્ષા પ્રોમ્પ્ટ માટે Apple ની સેવાઓની જરૂર પડી શકે છે.</p>
+      </details>
+      <details>
+        <summary>મારી પઝલ પ્રોગ્રેસ ક્યાં સચવાઈ છે?</summary>
+        <p>પ્રોગ્રેસ મુશ્કેલી દ્વારા તમારા ઉપકરણ પર સ્થાનિક રીતે સાચવવામાં આવે છે. એપ્લિકેશનને કાઢી નાખવાથી સ્થાનિક સાચવેલ પ્રગતિ અને અપૂર્ણ પઝલ લેઆઉટ દૂર થઈ શકે છે. Game Center સિદ્ધિ ડેટા Apple દ્વારા સંચાલિત થાય છે.</p>
+      </details>
+      <details>
+        <summary>હું મુશ્કેલી કેવી રીતે બદલી શકું?</summary>
+        <p>Grove માં સેટિંગ્સ ખોલો અને સરળ, મધ્યમ, મૂળભૂત, અથવા મુશ્કેલ પસંદ કરો. દરેક મુશ્કેલી માટે પ્રગતિને અલગથી ટ્રૅક કરવામાં આવે છે, તેથી મુશ્કેલી બદલવાથી અન્ય પરની તમારી પ્રગતિ ભૂંસી શકાતી નથી.</p>
+      </details>
+      <details>
+        <summary>હું ખરીદીઓ કેવી રીતે પુનઃસ્થાપિત કરી શકું?</summary>
+        <p>Grove માં ખરીદી સ્ક્રીન ખોલો અને પુનઃસ્થાપિત ખરીદી ક્રિયાનો ઉપયોગ કરો. ખરીદીઓ પુનઃસ્થાપિત કરવા માટે તમારા App Store એકાઉન્ટનો ઉપયોગ થાય છે અને તેને નેટવર્ક કનેક્શનની જરૂર પડી શકે છે.</p>
+      </details>
+      <details>
+        <summary>શું હું અવાજ અથવા ગતિ બંધ કરી શકું?</summary>
+        <p>હા. Grove સેટિંગ્સમાં ઑડિઓ નિયંત્રણો, ઓછી ગતિ, ઉચ્ચ કોન્ટ્રાસ્ટ, ટેક્સ્ટ સ્કેલિંગ અને અન્ય ઍક્સેસિબિલિટી પસંદગીઓનો સમાવેશ થાય છે.</p>
+      </details>
+      <h2>આધાર વિગતો</h2>
+      <p>
+        Grove સપોર્ટ, ગોપનીયતા પ્રશ્નો અથવા અન્ય એપ્લિકેશન-સંબંધિત વિનંતીઓ માટે, <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> ને ઇમેઇલ કરો.
+      </p>
+    </article>
+  </main>
+</body>
+</html>

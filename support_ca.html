@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ca" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suport Grove</title>
+  <meta name="description" content="Suport, preguntes freqüents i dades de contacte de Grove, un acollidor joc de trencaclosques d&#x27;arbres.">
+  <link rel="canonical" href="https://yasserhamek.github.io/Grove_Support/support_ca.html">
+  <style>
+:root {
+      color-scheme: light dark;
+      --bg: #f8f7f1;
+      --fg: #182018;
+      --muted: #526052;
+      --accent: #2f6f4e;
+      --panel: #ffffff;
+      --border: #dfe5da;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111611;
+        --fg: #edf2ea;
+        --muted: #b8c5b4;
+        --accent: #8fd6a9;
+        --panel: #182018;
+        --border: #334131;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    article {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: clamp(24px, 5vw, 40px);
+      box-shadow: 0 18px 40px rgb(0 0 0 / 0.06);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 7vw, 3rem);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+    }
+
+    p,
+    ul,
+    details {
+      margin: 1rem 0 0;
+    }
+
+    ul {
+      padding-left: 1.35rem;
+    }
+
+    html[dir="rtl"] ul {
+      padding-left: 0;
+      padding-right: 1.35rem;
+    }
+
+    details {
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+    }
+
+    details:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    summary {
+      color: var(--fg);
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .updated,
+    .muted {
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .language-selector {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    html[dir="rtl"] .language-selector {
+      justify-content: flex-start;
+    }
+
+    .language-selector select {
+      max-width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--fg);
+      font: inherit;
+      font-weight: 600;
+      padding: 0.45rem 0.65rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <div class="language-selector">
+        <label for="language-select">Canviar idioma</label>
+        <select id="language-select" onchange="window.location.href = this.value">
+          <option value="support.html" lang="en">English</option>
+          <option value="support_ar.html" lang="ar" dir="rtl">العربية</option>
+          <option value="support_bn.html" lang="bn">বাংলা</option>
+          <option value="support_ca.html" lang="ca" selected>Català</option>
+          <option value="support_cs.html" lang="cs">Čeština</option>
+          <option value="support_da.html" lang="da">Dansk</option>
+          <option value="support_de.html" lang="de">Deutsch</option>
+          <option value="support_el.html" lang="el">Ελληνικά</option>
+          <option value="support_es.html" lang="es">Español</option>
+          <option value="support_fi.html" lang="fi">Suomi</option>
+          <option value="support_fr.html" lang="fr">Français</option>
+          <option value="support_gu.html" lang="gu">ગુજરાતી</option>
+          <option value="support_hi.html" lang="hi">हिन्दी</option>
+          <option value="support_hr.html" lang="hr">Hrvatski</option>
+          <option value="support_hu.html" lang="hu">Magyar</option>
+          <option value="support_id.html" lang="id">Indonesia</option>
+          <option value="support_it.html" lang="it">Italiano</option>
+          <option value="support_ja.html" lang="ja">日本語</option>
+          <option value="support_kn.html" lang="kn">ಕನ್ನಡ</option>
+          <option value="support_ko.html" lang="ko">한국어</option>
+          <option value="support_ml.html" lang="ml">മലയാളം</option>
+          <option value="support_mr.html" lang="mr">मराठी</option>
+          <option value="support_ms.html" lang="ms">Melayu</option>
+          <option value="support_nl.html" lang="nl">Nederlands</option>
+          <option value="support_no.html" lang="no">Norsk</option>
+          <option value="support_or.html" lang="or">ଓଡ଼ିଆ</option>
+          <option value="support_pa.html" lang="pa">ਪੰਜਾਬੀ</option>
+          <option value="support_pl.html" lang="pl">Polski</option>
+          <option value="support_pt.html" lang="pt">Português</option>
+          <option value="support_ro.html" lang="ro">Română</option>
+          <option value="support_ru.html" lang="ru">Русский</option>
+          <option value="support_sk.html" lang="sk">Slovenčina</option>
+          <option value="support_sl.html" lang="sl">Slovenščina</option>
+          <option value="support_sv.html" lang="sv">Svenska</option>
+          <option value="support_ta.html" lang="ta">தமிழ்</option>
+          <option value="support_te.html" lang="te">తెలుగు</option>
+          <option value="support_th.html" lang="th">ไทย</option>
+          <option value="support_tr.html" lang="tr">Türkçe</option>
+          <option value="support_uk.html" lang="uk">Українська</option>
+          <option value="support_ur.html" lang="ur" dir="rtl">اردو</option>
+          <option value="support_vi.html" lang="vi">Tiếng Việt</option>
+          <option value="support_zh.html" lang="zh-Hans">简体中文</option>
+          <option value="support_zh_Hant.html" lang="zh-Hant">繁體中文</option>
+        </select>
+      </div>
+      <h1>Suport Grove</h1>
+      <p>Grove és un acollidor joc de trencaclosques d&#x27;arbres per a iPhone. Aquesta pàgina cobreix preguntes d&#x27;assistència habituals i com obtenir ajuda.</p>
+      <h2>Preguntes freqüents</h2>
+      <details>
+        <summary>El Grove necessita connexió a Internet?</summary>
+        <p>Grove està dissenyat com un primer joc de trencaclosques fora de línia. El joc de trencaclosques bàsics, el progrés local, la configuració i les cartes d&#x27;arbre desbloquejades s&#x27;emmagatzemen al dispositiu. Les compres de App Store, les compres de restauració, Game Center i les sol·licituds de revisió poden requerir els serveis de Apple.</p>
+      </details>
+      <details>
+        <summary>On es guarda el meu progrés del trencaclosques?</summary>
+        <p>El progrés es desa localment al dispositiu per dificultat. Suprimir l&#x27;aplicació pot eliminar el progrés local desat i els dissenys de trencaclosques inacabats. Apple gestiona les dades d&#x27;assoliments de Game Center.</p>
+      </details>
+      <details>
+        <summary>Com puc canviar la dificultat?</summary>
+        <p>Obriu Configuració a Grove i trieu Fàcil, Mitjana, Predeterminada o Difícil. El progrés es fa un seguiment per separat per a cada dificultat, de manera que el canvi de dificultat no esborra el vostre progrés de les altres.</p>
+      </details>
+      <details>
+        <summary>Com puc restaurar les compres?</summary>
+        <p>Obriu la pantalla de compra a Grove i utilitzeu l&#x27;acció de restauració de compres. La restauració de compres utilitza el vostre compte de App Store i és possible que requereixi una connexió de xarxa.</p>
+      </details>
+      <details>
+        <summary>Puc desactivar el so o el moviment?</summary>
+        <p>Sí. La configuració de Grove inclou controls d&#x27;àudio, moviment reduït, contrast més alt, escala de text i altres preferències d&#x27;accessibilitat.</p>
+      </details>
+      <h2>Detalls de suport</h2>
+      <p>
+        Per obtenir assistència de Grove, preguntes de privadesa o altres sol·licituds relacionades amb l&#x27;aplicació, envieu un correu electrònic a <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a>.
+      </p>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="sk" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Podpora Grove</title>
+  <meta name="description" content="Podpora, často kladené otázky a kontaktné údaje pre Grove, útulnú hru so stromami.">
+  <link rel="canonical" href="https://yasserhamek.github.io/Grove_Support/support_sk.html">
+  <style>
+:root {
+      color-scheme: light dark;
+      --bg: #f8f7f1;
+      --fg: #182018;
+      --muted: #526052;
+      --accent: #2f6f4e;
+      --panel: #ffffff;
+      --border: #dfe5da;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111611;
+        --fg: #edf2ea;
+        --muted: #b8c5b4;
+        --accent: #8fd6a9;
+        --panel: #182018;
+        --border: #334131;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    article {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: clamp(24px, 5vw, 40px);
+      box-shadow: 0 18px 40px rgb(0 0 0 / 0.06);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 7vw, 3rem);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+    }
+
+    p,
+    ul,
+    details {
+      margin: 1rem 0 0;
+    }
+
+    ul {
+      padding-left: 1.35rem;
+    }
+
+    html[dir="rtl"] ul {
+      padding-left: 0;
+      padding-right: 1.35rem;
+    }
+
+    details {
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+    }
+
+    details:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    summary {
+      color: var(--fg);
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .updated,
+    .muted {
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .language-selector {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    html[dir="rtl"] .language-selector {
+      justify-content: flex-start;
+    }
+
+    .language-selector select {
+      max-width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--fg);
+      font: inherit;
+      font-weight: 600;
+      padding: 0.45rem 0.65rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <div class="language-selector">
+        <label for="language-select">Zmeniť jazyk</label>
+        <select id="language-select" onchange="window.location.href = this.value">
+          <option value="support.html" lang="en">English</option>
+          <option value="support_ar.html" lang="ar" dir="rtl">العربية</option>
+          <option value="support_bn.html" lang="bn">বাংলা</option>
+          <option value="support_ca.html" lang="ca">Català</option>
+          <option value="support_cs.html" lang="cs">Čeština</option>
+          <option value="support_da.html" lang="da">Dansk</option>
+          <option value="support_de.html" lang="de">Deutsch</option>
+          <option value="support_el.html" lang="el">Ελληνικά</option>
+          <option value="support_es.html" lang="es">Español</option>
+          <option value="support_fi.html" lang="fi">Suomi</option>
+          <option value="support_fr.html" lang="fr">Français</option>
+          <option value="support_gu.html" lang="gu">ગુજરાતી</option>
+          <option value="support_hi.html" lang="hi">हिन्दी</option>
+          <option value="support_hr.html" lang="hr">Hrvatski</option>
+          <option value="support_hu.html" lang="hu">Magyar</option>
+          <option value="support_id.html" lang="id">Indonesia</option>
+          <option value="support_it.html" lang="it">Italiano</option>
+          <option value="support_ja.html" lang="ja">日本語</option>
+          <option value="support_kn.html" lang="kn">ಕನ್ನಡ</option>
+          <option value="support_ko.html" lang="ko">한국어</option>
+          <option value="support_ml.html" lang="ml">മലയാളം</option>
+          <option value="support_mr.html" lang="mr">मराठी</option>
+          <option value="support_ms.html" lang="ms">Melayu</option>
+          <option value="support_nl.html" lang="nl">Nederlands</option>
+          <option value="support_no.html" lang="no">Norsk</option>
+          <option value="support_or.html" lang="or">ଓଡ଼ିଆ</option>
+          <option value="support_pa.html" lang="pa">ਪੰਜਾਬੀ</option>
+          <option value="support_pl.html" lang="pl">Polski</option>
+          <option value="support_pt.html" lang="pt">Português</option>
+          <option value="support_ro.html" lang="ro">Română</option>
+          <option value="support_ru.html" lang="ru">Русский</option>
+          <option value="support_sk.html" lang="sk" selected>Slovenčina</option>
+          <option value="support_sl.html" lang="sl">Slovenščina</option>
+          <option value="support_sv.html" lang="sv">Svenska</option>
+          <option value="support_ta.html" lang="ta">தமிழ்</option>
+          <option value="support_te.html" lang="te">తెలుగు</option>
+          <option value="support_th.html" lang="th">ไทย</option>
+          <option value="support_tr.html" lang="tr">Türkçe</option>
+          <option value="support_uk.html" lang="uk">Українська</option>
+          <option value="support_ur.html" lang="ur" dir="rtl">اردو</option>
+          <option value="support_vi.html" lang="vi">Tiếng Việt</option>
+          <option value="support_zh.html" lang="zh-Hans">简体中文</option>
+          <option value="support_zh_Hant.html" lang="zh-Hant">繁體中文</option>
+        </select>
+      </div>
+      <h1>Podpora Grove</h1>
+      <p>Grove je útulná stromová puzzle hra pre iPhone. Táto stránka obsahuje bežné otázky týkajúce sa podpory a ako získať pomoc.</p>
+      <h2>Často kladené otázky</h2>
+      <details>
+        <summary>Potrebuje Grove internetové pripojenie?</summary>
+        <p>Grove je navrhnutý ako prvá logická hra offline. Základné puzzle hry, miestny postup, nastavenia a odomknuté stromové karty sú uložené vo vašom zariadení. Nákupy App Store, obnovenie nákupov, Game Center a výzvy na kontrolu môžu vyžadovať služby Apple.</p>
+      </details>
+      <details>
+        <summary>Kde je uložený môj postup v skladaní?</summary>
+        <p>Postup sa ukladá lokálne na vašom zariadení podľa náročnosti. Odstránením aplikácie môžete odstrániť miestny uložený postup a nedokončené rozloženie puzzle. Údaje o úspechoch Game Center spravuje Apple.</p>
+      </details>
+      <details>
+        <summary>Ako zmením obtiažnosť?</summary>
+        <p>Otvorte Nastavenia v Grove a vyberte Ľahká, Stredná, Predvolená alebo Ťažká. Pokrok sa sleduje samostatne pre každú obtiažnosť, takže zmena obtiažnosti nevymaže váš postup na ostatných.</p>
+      </details>
+      <details>
+        <summary>Ako obnovím nákupy?</summary>
+        <p>Otvorte obrazovku nákupu v Grove a použite akciu na obnovenie nákupov. Na obnovenie nákupov sa používa váš účet App Store a môže vyžadovať pripojenie k sieti.</p>
+      </details>
+      <details>
+        <summary>Môžem vypnúť zvuk alebo pohyb?</summary>
+        <p>áno. Nastavenia Grove zahŕňajú ovládanie zvuku, znížený pohyb, vyšší kontrast, mierku textu a ďalšie preferencie dostupnosti.</p>
+      </details>
+      <h2>Podrobnosti o podpore</h2>
+      <p>
+        Ak potrebujete podporu Grove, otázky týkajúce sa ochrany osobných údajov alebo iné žiadosti týkajúce sa aplikácie, pošlite e-mail na adresu <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a>.
+      </p>
+    </article>
+  </main>
+</body>
+</html>
